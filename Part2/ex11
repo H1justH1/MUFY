@@ -1,0 +1,16 @@
+def calculate(number1, operater, number2):
+    if operater == "+":
+        return number1 + number2
+    elif operater == "-":
+        return number1 - number2
+    elif operater == "*":
+        return number1 * number2
+    elif operater == "/":
+        return number1 / number2
+    else:
+        return "Invalid"
+
+print(calculate(10,"+",10))
+print(calculate(10,"-",10))
+print(calculate(10,"*",10))
+print(calculate(10,"/",10))

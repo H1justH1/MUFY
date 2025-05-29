@@ -1,0 +1,3 @@
+countries  = ['Malaysia','Japan','Armenia','Brazils','Australia']
+for x in countries:
+    print("Come and visit", x)
